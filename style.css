@@ -1,0 +1,70 @@
+* {outline:none;border:none;margin:0;padding:0;}
+		html, body {height:100%;font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
+ 		.wrapper {margin:0 auto;width:89%;max-width:1100px;} 
+		#page-wrap {
+			min-height:100%;margin-bottom:-522px;
+			padding:55px 0;
+		}
+		#page-wrap:after {
+			content:'';display:block;
+		}
+		p {font-family: "open-sans", Helvetica, Arial, sans-serif;}
+		a:hover {-webkit-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in;}
+		#cobbler, #line-one {display:inline;}
+		#line-two {margin-top:2em;}
+		#page-wrap p {font-size:21px;line-height:2.1em;margin-bottom:2em;font-weight:300;}
+		#page-wrap a {font-style:italic;border-bottom:1px dotted #fff;}
+		#page-wrap a:hover {opacity:0.6;}
+		#page-wrap #cobbler {font-size:54px;line-height:1.1em;font-family:"brandon-grotesque";text-transform:uppercase;letter-spacing:-2px;}
+		#colophon, #page-wrap:after {height:590px;}
+		body {background:#e73f08 url(img/noise.jpg) repeat;}
+		a {text-decoration: none;}
+		#main {color:#fff;}
+		#main a {color:#fff;}
+		#colophon {background:#fff;color:#666;min-height:522px;height:620px;
+			font-size:13.5px;line-height: 1.8em;font-weight: 100;
+		}
+		#colophon a {color:#666;}
+		#colophon a:hover {color:#e63d06;}
+		#colophon #tartan {background:#fff url(img/tartan.jpg) repeat-x top center;width:100%;height:148px;}
+		#colophon span strong {clear:both;font-size:12px;display:block;}
+		#colophon-content {padding:75px 0;}
+		.uppercase {text-transform:uppercase;
+			
+		}
+		#logo {background:transparent url(img/spoke.jpg) no-repeat;width:133px;height:23px;}
+		.float-left, .float-right {position:relative;width:100%;margin-bottom:2em;}
+		.float-left {float:left;}
+		.float-right {float:left;
+			font-size: 13.5px;line-height: 1.8em;font-weight: 100;
+		}
+		.clear-left {clear:left;}
+		.clear-right {clear:right;}
+		.copyright {font-size:12px;clear:both;}
+		
+		.float-left span, .float-right span {display:block;}
+		.social li {list-style:none;position:relative;float:left;margin-right:8px;}
+		.social li a {display:block;height:100%;}
+		.social li.twitter {width:19px;height:22px;}
+		.social li.facebook {width:14px;height:22px;}
+		.social li.linkdin {width:21px;height:22px;}
+		.social li.twitter a {background:transparent url(img/twitter.jpg) no-repeat;background-size:19px 22px;}
+		.social li.facebook a {background:transparent url(img/facebook.jpg) no-repeat;background-size:18px 29px;}
+		.social li.linkdin a {background:transparent url(img/linkedin.jpg) no-repeat;width:21px;background-size:21px 22px;}
+		.social li a:hover {opacity:0.7;}
+		
+		@media screen and (min-width: 700px) {
+			#page-wrap {padding:100px 0;}
+			#page-wrap p {font-size:28px;line-height:2.1em;margin-bottom:2em;}
+			#page-wrap #cobbler {font-size:124px;letter-spacing:-5px;}
+			.float-left, .float-right {width:40%;margin-bottom:0;}
+			.float-right {float:right;max-width:200px;}
+			.copyright {margin-top:5.8em;}
+			#colophon, #page-wrap:after {height:550px;}
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.3), not all, not all, only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+			#logo {background:transparent url(img/spoke_2x.jpg) no-repeat;background-size:133px 23px;}
+			.social li.twitter a {background:transparent url(img/twitter_2x.jpg) no-repeat;background-size:19px 22px;}
+		.social li.facebook a {background:transparent url(img/facebook_2x.jpg) no-repeat;background-size:14px 22px;}
+		.social li.linkdin a {background:transparent url(img/linkedin_2x.jpg) no-repeat;background-size:21px 22px;}
+		}
